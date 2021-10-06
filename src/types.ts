@@ -5,4 +5,6 @@ export interface detail {
 export interface post {
     title?: string;
     des?: string;
+    price?: string;
+    city?: string;
 }
