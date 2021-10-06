@@ -8,3 +8,9 @@ export interface post {
     price?: string;
     city?: string;
 }
+
+export interface farmer{
+	name ?: string
+	city ?: string
+	id ?: string
+}
