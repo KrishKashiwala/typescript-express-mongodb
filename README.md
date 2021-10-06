@@ -1,0 +1,1 @@
+<p>This is basic boiler plate for typescript and express mongodb integration.. </p>
