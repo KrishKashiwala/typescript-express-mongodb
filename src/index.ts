@@ -41,6 +41,8 @@ app.use((req, res, next) => {
 });
 // ------------------ ROUTES ----------------------
 app.use('/', router);
+app.use('/home',router)
+app.use('/home/profile/:id',router)
 
 //   ---------------- SERVER ----------------------
 app.listen(5000, () => console.log('server listening on port -> 5000'));
